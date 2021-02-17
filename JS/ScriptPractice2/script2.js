@@ -6,10 +6,10 @@ const passTest = true;
 if (passTest) hasDriversLicense = true;
 if (hasDriversLicense) console.log('I can drive');
 
-function TWorking(){
+function TWorking() {
     console.log("True Working");
 }
-function FWorking(){
+function FWorking() {
     console.log("False Working");
 }
 
@@ -24,23 +24,23 @@ function fruitProcessor(apples, oranges) {
 
 fruitProcessor(5, 0);
 
-console.log(fruitProcessor(5,6));
-const juice=fruitProcessor(5, 0);
+console.log(fruitProcessor(5, 6));
+const juice = fruitProcessor(5, 0);
 console.log(juice);
 
 
 var now = new Date();
-var year=now.getFullYear();
+var year = now.getFullYear();
 console.log(year);
-console.log(typeof year );
+console.log(typeof year);
 
 
 function CalcAge(BirthYear) {
     var now = new Date();
-    var year=now.getFullYear();
+    var year = now.getFullYear();
 
     const calage = year - BirthYear;
-    
+
     console.log(calage);
     const Age = `calculated Age ${calage}`;
     return Age
