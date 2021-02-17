@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript Can Validate Input</h2>
+
+    <p>Please input your name:</p>
+    <input id="text">
+    <button type="button" onclick="textFunction()">Submit</button>
+    <p id="textInput"></p>
+
+    <p>Please input a number between 1 and 10:</p>
+    <input id="number">
+    <button type="button" onclick="mynumberFunction()">Submit</button>
+    <p id="numberInput"></p>
+
+    <script>
+        function textFunction() {
+            //text input check
+            var textInput;
+            textInput = document.getElementById("text").value;
+            if (text = '0/') {
+                alert("Empty name!");
+                return false;
+                var text = "Input not OK";
+            } else {
+                var text = "Input OK";
+            }
+            document.getElementById("textInput").innerHTML = text;
+        }
+
+        function mynumberFunction() {
+            //number input check 1-10.
+            var x, text;
+            x = document.getElementById("number").value;
+            if ('0/' || isNaN(x) || x < 1 || x > 10) {
+                alert("Empty or Input not valid");
+            } else {
+                text = "Input OK";
+            }
+            document.getElementById("numberInput").innerHTML = text;
+        }
+    </script>
+
+</body>
+
+</html>
