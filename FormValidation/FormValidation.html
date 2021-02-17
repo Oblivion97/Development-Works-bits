@@ -3,17 +3,39 @@
 
 <body>
 
-    <h2>JavaScript Can Validate Input</h2>
+    <h2>JavaScript Form Validation</h2>
 
     <p>Please input your name:</p>
     <input id="text">
     <button type="button" onclick="textFunction()">Submit</button>
     <p id="textInput"></p>
 
+    <br>
+    <br>
+
     <p>Please input a number between 1 and 10:</p>
     <input id="number">
     <button type="button" onclick="mynumberFunction()">Submit</button>
     <p id="numberInput"></p>
+
+    <h2>JavaScript Validation API</h2>
+
+    <p>Enter a number and click OK:</p>
+    <p>If the number is less than 100 or greater than 300, an error message will be displayed.</p>
+    <input id="id1" type="number" min="100" max="300" required>
+    <button onclick="mynumberAPIFunction()">OK</button>
+    <p id="APIerrorMsg"></p>
+
+    <br>
+    <br>
+
+    <p>Enter a number and click OK:</p>
+    <p>If the number is greater than 100 (the input's max attribute), an error message will be displayed.</p>
+    <input id="id2" type="number" max="100">
+    <button onclick="myAPIoverflowFunction()">OK</button>
+    <p id="APIOverflowerrorMsg"></p>
+
+
 
     <script>
         function textFunction() {
@@ -40,6 +62,26 @@
                 text = "Input OK";
             }
             document.getElementById("numberInput").innerHTML = text;
+        }
+
+        function mynumberAPIFunction() {
+            //form validation API
+            var inpObj = document.getElementById("id1");
+            if (!inpObj.checkValidity()) {
+                document.getElementById("APIerrorMsg").innerHTML = inpObj.validationMessage;
+            } else {
+                document.getElementById("APIerrorMsg").innerHTML = "Input OK";
+            }
+        }
+
+        function myAPIoverflowFunction() {
+            var inpObj2 = document.getElementById("id2");
+            if (inpObj2.validity.rangeOverflow) {
+                var txt = "Empty or too large";
+            } else {
+                var txt = "Input OK";
+            }
+            document.getElementById("APIOverflowerrorMsg").innerHTML = txt;
         }
     </script>
 
