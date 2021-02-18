@@ -1,0 +1,19 @@
+<html>
+
+<script src="index.js"></script>
+
+<head></head>
+
+<body>
+    <form name="LogInForm" action="javascript: this== window;" method="post">
+        <label for="user">Username:</label>
+        <input id="user" name="user" onchange="validUser()"><br><br>
+
+        <label for="user">Password:</label>
+        <input id="password" name="password" onchange="validPass()"><br><br>
+        
+        <button onclick="userValidation()">Submit</button>
+    </form>
+</body>
+
+</html>
