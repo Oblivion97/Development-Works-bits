@@ -57,9 +57,60 @@ setInterval(myFunction, 1000);
 
 function myFunction() {
     let d = new Date();
-    
 
-    document.getElementById("hour").innerHTML = d.getHours();
-    document.getElementById("minute").innerHTML = d.getMinutes();
-    document.getElementById("second").innerHTML = d.getSeconds();
+    h = d.getHours();
+    m = d.getMinutes();
+    s = d.getSeconds();
+    document.getElementById("hour").innerHTML = h;
+    document.getElementById("minute").innerHTML = m;
+    document.getElementById("second").innerHTML = s;
 }
+
+//Get Files/Web page in a Interval
+// function myDisplayer(some) {
+//     console.log(some); 
+// }
+
+// function getFile(myCallback) {
+//     let req = new XMLHttpRequest();
+//     req.open('GET', "temp.html");
+//     req.onload = function () {
+//         if (req.status == 200) {
+//             myCallback(this.responseText);
+//         } else {
+//             myCallback("Error: " + req.status);
+//         }
+//     }
+//     req.send();
+// }
+
+// getFile(myDisplayer);
+
+
+//Promise Function
+let myPromise = new Promise(
+    function (myResolve, myReject) {
+        setTimeout(
+            function () {
+                myResolve("I love You !!");
+            }
+            , 3000);
+    }
+);
+
+myPromise.then(function (value) {
+    console.log(value);;
+});
+
+//JavaScript async / await
+function myDisplayer(some) {
+    console.log(some);
+}
+
+async function myFunction() { return "Hello Async Function"; }
+
+myFunction().then(
+    function (value) { myDisplayer(value); },
+    function (error) { myDisplayer(error); }
+);
+
