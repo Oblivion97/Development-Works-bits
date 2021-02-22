@@ -26,6 +26,7 @@ let result = myCalculator(5, 5);
 console.log(result);
 
 //Asynchronous callback
+
 // function
 function greet(name, callback) {
     console.log('Hi' + ' ' + name);
@@ -48,3 +49,17 @@ function myFunction() {
     console.log(msg);
 }
 
+//Time out 2
+setTimeout(function () { console.log("I love JS !!!"); }, 3000);
+
+//Set Interval
+setInterval(myFunction, 1000);
+
+function myFunction() {
+    let d = new Date();
+    
+
+    document.getElementById("hour").innerHTML = d.getHours();
+    document.getElementById("minute").innerHTML = d.getMinutes();
+    document.getElementById("second").innerHTML = d.getSeconds();
+}
