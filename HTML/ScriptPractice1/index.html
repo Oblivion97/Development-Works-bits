@@ -1,6 +1,8 @@
 <html>
 
 <!-- DOM Css -->
+<p>Get element by id</p>
+<br>
 <p id="p2">Hello World!</p>
 
 <script>
@@ -10,9 +12,11 @@
 <p>The paragraph above was changed by a script.</p>
 
 </body>
-
+<br>
 <!-- getElementsByTagName -->
-
+<br>
+<p>Get Element by tag name.</p>
+<br>
 <ul>
     <li>Coffee</li>
     <li>Tea</li>
@@ -28,8 +32,11 @@
         list.getElementsByTagName("LI")[0].innerHTML = "Milk";
     }
 </script>
-
+<br>
 <!-- Button Event Listener -->
+<br>
+<p>Button Event Listener</p>
+<br>
 <button id="myBtn">Try it</button>
 
 <p id="demo"></p>
@@ -39,5 +46,59 @@
         document.getElementById("demo").innerHTML = "Hello World";
     });
 </script>
+
+
+<ul id="myList">
+    <li>Coffee</li>
+    <li>Tea</li>
+</ul>
+<br>
+<br>
+<p>DOM appendChild() Method</p><br>
+<button onclick="myFunction1()">Try it</button>
+
+<script>
+    function myFunction1() {
+        var node = document.createElement("LI");
+        var textnode = document.createTextNode("Water");
+        node.appendChild(textnode);
+        document.getElementById("myList").appendChild(node);
+    }
+</script>
+
+
+<!-- Dynamic HTML Element Create -->
+<br>
+<p>Dynamic HTML Element Create</p>
+<br>
+<div id="div1">
+    <p id="p1">This is a paragraph.</p>
+    <p id="p2">This is another paragraph.</p>
+</div>
+
+<br>
+<p>------------------------------</p><br>
+
+<div id="listtest">
+    <li id="li1">Zack Snyder's Justice League</li>
+
+</div>
+<br>
+<script>
+    var para = document.createElement("h1");
+    var node = document.createTextNode("This is new.");
+    para.appendChild(node);
+    var element = document.getElementById("div1");
+    element.appendChild(para);
+
+
+    var list = document.createElement("li");
+    var nods = document.createTextNode("Us United")
+    list.appendChild(nods);
+    var ements = document.getElementById("listtest");
+    ements.appendChild(list);
+
+</script>
+
 
 </html>
