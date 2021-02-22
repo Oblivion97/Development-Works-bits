@@ -23,3 +23,18 @@ function myCalculator(num1, num2) {
 
 let result = myCalculator(5, 5);
 console.log(result);
+
+//Asynchronous callback
+// function
+function greet(name, callback) {
+    console.log('Hi' + ' ' + name);
+    callback();
+}
+
+// callback function
+function callMe() {
+    console.log('I am callback function');
+}
+
+// passing function as an argument
+greet('Peter', callMe);
