@@ -6,9 +6,10 @@ function myFirst() {
 }
 
 function mySecond() {
-    myFirst();
+    //myFirst();
     console.log("Goodbye");
 }
+myFirst();
 mySecond();
 
 //callbacks2
@@ -38,3 +39,12 @@ function callMe() {
 
 // passing function as an argument
 greet('Peter', callMe);
+
+//Timeout Function JS
+setTimeout(myFunction, 3000);
+
+function myFunction() {
+    var msg = "I love You !!";
+    console.log(msg);
+}
+
