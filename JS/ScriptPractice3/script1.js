@@ -102,7 +102,7 @@ myPromise.then(function (value) {
     console.log(value);;
 });
 
-//JavaScript async / await
+//JavaScript async
 function myDisplayer(some) {
     console.log(some);
 }
@@ -114,3 +114,23 @@ myFunction().then(
     function (error) { myDisplayer(error); }
 );
 
+//JavaScript await
+async function myDisplay() {
+    let myPromise = new Promise(function (myResolve, myReject) {
+        myResolve("I am await test");
+    });
+    console.log(await myPromise);
+}
+
+myDisplay();
+
+
+//For in
+var txt = "";
+var person = ["John", "Doe"];
+var x;
+for (x in person) {
+    console.log(person[0]);
+    txt += person[x] + " ";
+}
+console.log(txt); 
