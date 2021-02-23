@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript HTML DOM</h2>
+
+    <div id="hello">
+        <p id="test">Hello World!</p>
+    </div>
+
+
+
+    <button onclick="myFunction()">Try it</button>
+
+    <script>
+        function myFunction() {
+            //var black = rgb(0, 0, 0);
+            //console.log(black);
+            //var myCollection = ;
+            //var i;
+            //var test = document.getElementsByTagName("p")[0].getPropertyValue("color");
+            //console.log(test);
+
+            var selected = document.getElementsByTagName("p")[0];
+            var color = window.getComputedStyle(selected).getPropertyValue("color");
+            //var color = selected.style.getPropertyValue("color");
+            console.log(color);
+
+            // alert(document.getElementById("hello").style.background)
+
+            document.getElementById("test").style.color = 'blue';
+
+
+
+
+
+
+
+            // function componentToHex(c) {
+            //     var hex = c.toString(16);
+            //     return hex.length == 1 ? "0" + hex : hex;
+            // }
+
+            // function rgbToHex(r, g, b) {
+            //     return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+            // }
+
+            // alert(rgbToHex(0, 51, 255));
+
+        }
+    </script>
+
+</body>
+
+</html>
