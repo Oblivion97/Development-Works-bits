@@ -388,12 +388,250 @@
     <br>
     <p>HTML Layouts</p>
     <hr>
-    <iframe  title="H M Mahmudul Hasan's layout" src="hTMLlayout.html" height="400"
-        width="700" title="Iframe Example"></iframe>
+    <iframe title="H M Mahmudul Hasan's layout" src="hTMLlayout.html" height="400" width="700"
+        title="Iframe Example"></iframe>
 
 
+    <br>
+    <br>
+    <p>Responsive</p>
+    <hr>
+    <p>IMAGE:</p><br>
+    <h2>Responsive Image</h2>
+    <p>When the CSS width property is set in a percentage value, the image will scale up and down when resizing the
+        browser
+        window. Resize the browser window to see the effect.</p>
+
+    <img src="https://c4.wallpaperflare.com/wallpaper/329/31/577/man-of-steel-henry-cavill-clark-kent-kal-el-wallpaper-preview.jpg"
+        style="width:100%;">
+
+    <picture>
+        <source
+            srcset="https://images.unsplash.com/photo-1578494514276-4e416333478c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80"
+            media="(max-width: 600px)">
+        <source
+            srcset="https://images.unsplash.com/photo-1548109293-fe09a5c93b5c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80"
+            media="(max-width: 1500px)">
+        <source
+            srcset="https://images.unsplash.com/photo-1612986656969-72c31489ad4b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=718&q=80">
+        <img src="https://images.unsplash.com/photo-1506869730304-be7d5430e841?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=751&q=80"
+            alt="Flowers">
+    </picture>
+
+    <br>
+    <br>
+    <p>Computer Code</p>
+    <hr>
+    <h2>Computer Code</h2>
+    <p>Some programming code:</p>
+
+    <code>
+    x = 5;
+    y = 6;
+    z = x + y;
+    </code>
+
+    <br>
+    <br>
+    <p>Keyboard Elements</p>
+    <hr>
+    <p>Save the document by pressing
+        <kbd>Ctrl + S</kbd>
+    </p>
+
+    <br>
+    <br>
+    <p>Semantic Elements in HTML</p>
+    <hr>
+    <p>article, aside, details, figcaption, figure etc</p>
+    <!-- <article>
+        <aside>
+            <details>
+                <figcaption>
+                    <figure>
+                        <footer>
+                            <header>
+                                <main>
+                                    <mark>
+                                        <nav>
+                                            <section>
+                                                <summary>
+                                                    <time> -->
+
+    <br>
+    <br>
+    <p>XHTML-EXtensible HyperText Markup Language</p>
+    <hr>
+
+    <pre>
+        XHTML is a stricter, more XML-based version of HTML
+        XHTML is HTML defined as an XML application
+        XHTML is supported by all major browsers.
+
+        XML is a markup language where all documents must be marked up correctly (be "well-formed").
+    </pre>
+
+    <p>Differences</p>
+    <pre>
+        "!DOCTYPE" is mandatory
+        The xmlns attribute in "html" is mandatory. head title and body are mandatory
+        Elements must always be properly nested
+        Elements must always be closed
+        Elements must always be in lowercase
+        Attribute names must always be in lowercase
+        Attribute values must always be quoted
+        Attribute minimization is forbidden
+</pre>
+    <br>
+    <br>
+    <p>HTML forms</p>
+    <hr>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" id="pass" name="pass">
+        <br>
+        <br>
+        <p2>Radio Buttons</p2><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br>
+        <br>
+        <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+        <br>
+
+        <p>Use the multiple attribute to allow the user to select more than one value.</p>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars" size="4" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select><br><br>
+        <br>
+        <br>
+        <p>Textarea:</p>
+        <p>The textarea element defines a multi-line input field.</p>
+
+        <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+        <br><br>
+
+        <p>The datalist element specifies a list of pre-defined options for an input element.
+            <br>
+            <br>
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+            <br>
+            <br>
+        <p>Time Input</p><br>
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt">
+        <input type="submit" value="Submit">
+        <br>
+        <br>
+
+        <p>URL Input Field:</p><br>
+        <label for="homepage">Add your homepage:</label>
+        <input type="url" id="homepage" name="homepage">
+        <input type="submit" value="Submit">
+
+        <br>
+        <br>
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+
+        <br>
+        <br>
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week">
+        <input type="submit" value="Submit">
+        <br>
+        <br>
 
 
+        <input type="submit" value="Submit">
+    </form>
+    <p>form action can be method= get, post</p>
+
+    <code>
+            "input"
+            "label"
+            "select"
+            "textarea"
+            "button"
+            "fieldset"
+            "legend"
+            "datalist"
+            "output"
+            "option"
+            "optgroup"
+
+    </code>
+
+    <br>
+    <br>
+    <p>HTML forms slider input</p>
+    <hr>
+    <p>The output Element</p>
+    <p>The output element represents the result of a calculation.</p>
+
+    <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range" id="a" name="a" value="50">
+        100 +
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br><br>
+        <input type="submit">
+    </form>
+
+    <p><strong>Note:</strong> The output element is not supported in Edge prior version 13.</p>
+
+    <br>
+    <br>
+    <p>HTML forms color picker</p>
+    <hr>
+    <p>My Color Picker</p>
+
+    <p>The <strong>input type="color"</strong> is used for input fields that should contain a color.</p>
+
+    <form action="/action_page.php">
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        <input type="submit" value="Submit">
+    </form>
+
+    <p><b>Note:</b> type="color" is not supported in Internet Explorer 11 or Safari 9.1 (or earlier).</p>
 </body>
 
 </html>
