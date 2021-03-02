@@ -97,7 +97,178 @@ p {
 .font3 {
     font-family: "Lucida Console", "Courier New", monospace;
 }
+
 /* <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Sofia"> */
 .font4 {
     font-family: "Sofia", sans-serif;
+}
+
+ul.alist {
+    list-style-type: circle;
+}
+
+ul.blist {
+    list-style-type: square;
+}
+
+ol.clist {
+    list-style-type: upper-roman;
+}
+
+ol.dlist {
+    list-style-type: lower-alpha;
+}
+
+#tablecss {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: auto;
+}
+
+#tablecss td,
+#tablecss th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tablecss tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tablecss tr:hover {
+    background-color: #ddd;
+}
+
+#tablecss th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+div.position_static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+
+div.position_relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+
+div.Position_fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+div.position_relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+
+div.position_absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+.textOverPic {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.txtOverimgContainer {
+    position: relative;
+}
+
+.txtOverimgbottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.txtOverimgcenter {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.txtOverimgbottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.txtOverimgtopright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.txtOverimgtopleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+
+.txtOverimg {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+.navlinkStyle {
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navlinkStyle li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.aligncenter {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.imageAlignment {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
