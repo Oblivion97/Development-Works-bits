@@ -272,3 +272,17 @@ div.sticky {
     margin-left: auto;
     margin-right: auto;
 }
+
+a.highlight:hover {
+    color: #ff0000;
+}
+
+.navlinkStyle {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+div:hover .navlinkStyle {
+    display: block;
+}
