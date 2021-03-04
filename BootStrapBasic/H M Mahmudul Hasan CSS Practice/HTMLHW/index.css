@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Garamond, sans-serif;
+}
+/* ------------------------------------------------------------------------------------------------- */
+
+/* Style the header */
+.profileHeader {
+  background-color: rgb(212, 32, 152);
+  padding: 5px;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  display: flex;
+}
+.profile{
+    flex: 1;
+    /* margin-left: 10px; */
+
+}
+
+.imgSource{
+  
+    border: 1px solid rgb(212, 32, 152);
+    background-color: white;
+    border-radius: 3px;
+    max-height: 150px;
+    max-width: 150px;
+
+}
+/* --------------------------------------------------------------------------------------------- */
+
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  
+  background: rgb(255, 255, 255);
+}
+
+/* Style the list inside the menu */
+.navbar {
+  /* overflow: hidden; */
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  /* max-height: 150px; */
+  flex-direction: column;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(3, 3, 3);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+.navbar a:hover{
+  width: 100%;
+  background-color: rgb(212, 32, 152);
+}
+.NavLinksHome, .NavLinksOverview, .NavLinksTaining, .NavLinksSkills, .NavLinksTable {
+    width: 100%;
+    background-color: white;
+    color: black;
+    /* border: 2px solid #9940a1; */
+    /* padding: 10px 20px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin-left: 20px; */
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+/* ---------------------------------------------------------------------------------------*/ 
+
+
+/* Style the content */
+article {
+  border-left: 2px solid rgb(212, 32, 152);
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.overview{
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+
+}
+.ghimage{
+  width: 100%;
+}
+table, caption{
+    padding-top: 20px;
+}
+table {
+  font-family: Garamond, sans-serif;
+  /* border-collapse: collapse; */
+  width: 100%;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 10px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Style the footer start*/
+footer {
+  background-color:rgb(212, 32, 152);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  
+}
+.mailToLink{
+  color: white;
+
+}
+.mailToLink:link {
+  text-decoration: none;
+}
+
+.mailToLink:visited {
+  text-decoration: none;
+}
+
+.mailToLink:hover {
+  text-decoration: underline;
+}
+
+.mailToLink:active {
+  text-decoration: underline;
+}
+/* -------------------------------------------------------------------------*/
+
+
+
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="https://kit.fontawesome.com/daf59e0dd1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+    <h1>Cascade Style Sheet Exploration By H. M Mahmudul Hasan</h1>
+
+    <!-- CSS - Cascading Style Sheets -->
+    <pre>
+        CSS stands for Cascading Style Sheets
+        CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+        CSS saves a lot of work. It can control the layout of multiple web pages all at once
+        External stylesheets are stored in CSS files
+    </pre>
+    <hr>
+    <div>
+        <p>Why Use CSS?</p>
+        <pre>
+            CSS is used to define styles for your web pages, including the design, layout and variations in display for
+            different devices and screen sizes.
+        </pre>
+    </div>
+    <hr>
+    <div>
+        <!-- <a href="https://ibb.co/thZLsMq"><img src="https://i.ibb.co/FWsHwb5/1.png" alt="1" border="0"></a> -->
+        <img class="img1" src="https://i.ibb.co/FWsHwb5/1.png" alt="All CSS Simple Selectors">
+    </div>
+
+    <hr>
+
+    <pre>
+        <h2>Three Ways to Insert CSS</h2>
+        There are three ways of inserting a style sheet:
+
+        -External CSS
+        -Internal CSS
+        -Inline CSS
+
+        Link external style sheet with link tag rel="stylesheet" href="index.css".
+    </pre>
+
+
+    <hr>
+    <h2>CSS Comments</h2>
+    <pre>there are no specific comment style in CSS. both single and multiline comment with 
+        /*something*/
+    </pre>
+
+    <hr>
+    <p>CSS Color</p>
+    <h1 class="ce1">Color Example 1</h1>
+    <h2 class="ce2">Color Example 2</h2>
+
+    <hr>
+    <p>background-color/Tranparency</p>
+    <div class="divBackgroundp">
+        <br>
+        <br>
+        <h1 class="divBackgroundc1">Hello</h1>
+        <p class="divBackgroundc2">This paragraph has its own background color.</p>
+        <br>
+        <br>
+    </div>
+
+    <hr>
+    <div class="bgimagetry">
+        <p class="backgroundImage">Matrix Has You!</>
+    </div>
+
+    <div class="cssborder">
+        <p>CSS border</p>
+    </div>
+
+    <hr>
+    <p>CSS Margin(From out side)/Padding(from Inside)</p>
+    <div class="CSSMargin">This div element has a top margin of 100px, a right margin of 150px, a bottom margin of
+        100px, and a left
+        margin of 80px.</div>
+    <br>
+    <div class="CSSPadding">This div element has a top padding of 50px, a right padding of 30px, a bottom padding of
+        50px, and a left
+        padding of 80px.</div>
+
+    <hr>
+
+    <p>Outline VS Border</p>
+    <div>
+        <div class="OutlineCSS">this is Outline Example</div>
+
+        <br>
+        <br>
+        <br>
+        <div class="BorderCSS">this is Border Example</div>
+    </div>
+
+    <hr>
+    <p>CSS Font</p>
+    <div>
+        <h1>CSS font-family</h1>
+        <p class="font1">This is a paragraph, shown in the Times New Roman font.</p>
+        <p class="font2">This is a paragraph, shown in the Arial font.</p>
+        <p class="font3">This is a paragraph, shown in the Lucida Console font.</p>
+
+        <pre>
+            What are Web Safe Fonts?
+            <br>
+            Web safe fonts are fonts that are universally installed across all browsers and devices.
+            <br>
+            Commonly Used Font Fallbacks
+            Below are some commonly used font fallbacks, organized by the 5 generic font families:
+
+            Serif
+            Sans-serif
+            Monospace
+            Cursive
+            Fantasy
+            <br>
+            Font Style
+            The font-style property is mostly used to specify italic text.
+
+            This property has three values:
+
+            normal - The text is shown normally
+            italic - The text is shown in italics
+            oblique - The text is "leaning" (oblique is very similar to italic, but less supported)
+        </pre>
+
+        <h1>font using google(u have to add source in html head for to work.)</h1>
+        <br>
+        <p class="font4">Font Using Google</p>
+    </div>
+    <hr>
+    <p>CSS Icon - Font Awesome Icons(need to add source in page head)</p>
+
+    <p>Some Font Awesome icons:(version related issues)</p>
+    <i class="fa fa-address-book"></i>
+    <i class="fa fa-free-code-camp"></i>
+    <i class="fa fa-eercast"></i>
+
+    <i class="fa fa-eercast" aria-hidden="true"></i>
+    <i class="fa fa-address-card-o" aria-hidden="true"></i>
+
+
+
+
+    <p>Styled Font Awesome icons (size and color):</p>
+    <i class="fa fa-address-book" style="font-size:24px;"></i>
+    <i class="fa fa-free-code-camp" style="font-size:36px;"></i>
+    <i class="fa fa-eercast" style="font-size:48px;color:red;"></i>
+
+    <i class="fa fa-address-card-o" aria-hidden="true"></i>
+
+    <hr>
+    <br>
+    <h1>Lists CSS style</h1>
+    <p>Example of unordered lists:</p>
+    <ul class="alist">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+
+    <ul class="blist">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+
+    <p>Example of ordered lists:</p>
+    <ol class="clist">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ol>
+
+    <ol class="dlist">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ol>
+    <hr>
+    <h1>TABLE-CSS</h1>
+    <table id="tablecss">
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Berglunds snabbköp</td>
+            <td>Christina Berglund</td>
+            <td>Sweden</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Königlich Essen</td>
+            <td>Philip Cramer</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+        </tr>
+        <tr>
+            <td>North/South</td>
+            <td>Simon Crowther</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Paris spécialités</td>
+            <td>Marie Bertrand</td>
+            <td>France</td>
+        </tr>
+    </table>
+    <hr>
+    <br>
+    <h1>CSS Position</h1>
+    <div class="position_static">
+        This div element has position: static;
+    </div>
+    <br>
+    <br>
+    <div class="position_relative">
+        This div element has position: relative;
+    </div>
+    <br>
+    <br>
+    <div class="Position_fixed">
+        This div element has position: fixed;
+    </div>
+
+    <br>
+    <br>
+    <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of
+        positioned relative to the viewport, like fixed):</p>
+
+    <div class="position_relative">This div element has position: relative;
+        <div class="position_absolute">This div element has position: absolute;</div>
+    </div>
+    <br>
+    <br>
+    <div class="sticky">I am sticky!</div>
+    <br>
+    <br>
+    <h2>This is a heading</h2>
+    <img class="textOverPic"
+        src="https://images.pexels.com/photos/2438212/pexels-photo-2438212.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        width="100" height="140">
+    <p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+    <hr>
+    <br>
+    <h1>Image Text</h1>
+    <p>Add some text to an image in the bottom right corner:</p>
+
+    <div class="txtOverimgContainer">
+        <img class="txtOverimg"
+            src="https://images.unsplash.com/photo-1614335770666-46566338336b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
+            alt="Cinque Terre" width="1000" height="300">
+        <div class="txtOverimgbottomright">Bottom Right</div>
+        <div class="txtOverimgcenter">Centered</div>
+        <div class="txtOverimgbottomleft">Bottom Left</div>
+        <div class="txtOverimgtopright">Top Right</div>
+        <div class="txtOverimgtopleft">Top Left</div>
+    </div>
+    <hr>
+    <br>
+    <h1>Horizontal Navigation Links</h1>
+    <p>By default, list items are displayed vertically. In this example we use display: inline-block to display them
+        horizontally (side by side).</p>
+    <p>Note: If you resize the browser window, the links will automatically break when it becomes too crowded.</p>
+
+    <ul class="navlinkStyle">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#clients">Our Clients</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+
+    <hr>
+    <br>
+    <h1>align elements</h1>
+    <br>
+    <p>align element: </p>
+    <div class="aligncenter">
+        <p>Hello World!</p>
+    </div>
+
+    <br>
+    <p>align picture: </p>
+    <img class="imageAlignment"
+        src="https://images.unsplash.com/photo-1613405945076-b474aa900fd9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=675&q=80"
+        alt="Paris" style="width:40%">
+
+    <hr>
+    <br>
+    <h1>css Sudo Elements: </h1>
+    <p><a class="highlight" href="">CSS Syntax</a></p>
+
+    <div>Hover over me to show the p element
+        <ul class="navlinkStyle">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#clients">Our Clients</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <hr>
+    <br>
+    <h1>Dropdown Menu</h1>
+    <p>Move the mouse over the button to open the dropdown menu.</p>
+
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+
+    <br>
+
+
+    <hr>
+    <br>
+    <p>Animated search input:</p>
+
+    <form>
+        <input class="SearchForm" type="text" name="search" placeholder="Search..">
+    </form>
+
+    <br>
+    <hr>
+    <br>
+    <h1>The transition Property</h1>
+
+    <p>Hover over the div element below, to see the transition effect:</p>
+    <div class="transitionbox"></div>
+    <br>
+    <hr>
+    <br>
+    <h1>Box Animation</h1>
+
+    <div class="AnimationBox">
+        <div class="boxAmimation"></div>
+    </div>
+    <br>
+    <hr><br>
+    <h1>Simple Pagination</h1>
+
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">8</a>
+        <a href="#">9</a>
+        <a href="#">10</a>
+        <a href="#">&raquo;</a>
+    </div>
+
+</body>
+
+</html>

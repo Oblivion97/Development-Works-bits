@@ -1,0 +1,466 @@
+body {
+    background-color: lightblue;
+}
+
+h1,
+h2 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.ce1,
+.ce2 {
+    color: teal;
+    background-color: azure;
+}
+
+.divBackgroundp {
+    background-color: aquamarine;
+}
+
+.divBackgroundc1 {
+    background-color: black;
+}
+
+.divBackgroundc2 {
+    background-color: darkblue;
+    color: aliceblue;
+    opacity: 0.3;
+}
+
+.bgimagetry {
+    height: 500;
+    width: 500;
+    background-image: url("https://images5.alphacoders.com/487/thumb-1920-487955.jpg");
+
+}
+
+.backgroundImage {
+    color: aliceblue;
+}
+
+.cssborder {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: red;
+}
+
+.CSSMargin {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+}
+
+.CSSPadding {
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.OutlineCSS {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: red;
+}
+
+.BorderCSS {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: red;
+}
+
+.font1 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.font2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Sofia"> */
+.font4 {
+    font-family: "Sofia", sans-serif;
+}
+
+ul.alist {
+    list-style-type: circle;
+}
+
+ul.blist {
+    list-style-type: square;
+}
+
+ol.clist {
+    list-style-type: upper-roman;
+}
+
+ol.dlist {
+    list-style-type: lower-alpha;
+}
+
+#tablecss {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: auto;
+}
+
+#tablecss td,
+#tablecss th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tablecss tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tablecss tr:hover {
+    background-color: #ddd;
+}
+
+#tablecss th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+div.position_static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+
+div.position_relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+
+div.Position_fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+div.position_relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+
+div.position_absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+.textOverPic {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.txtOverimgContainer {
+    position: relative;
+}
+
+.txtOverimgbottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.txtOverimgcenter {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.txtOverimgbottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.txtOverimgtopright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.txtOverimgtopleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+
+.txtOverimg {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+.navlinkStyle {
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navlinkStyle li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.aligncenter {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.imageAlignment {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.highlight:hover {
+    color: #ff0000;
+}
+
+.navlinkStyle {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+div:hover .navlinkStyle {
+    display: block;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.SearchForm[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://img.icons8.com/material-sharp/24/000000/search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.10s ease-in-out;
+}
+
+.SearchForm[type=text]:focus {
+    width: 100%;
+}
+
+.transitionbox {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+
+.transitionbox:hover {
+    width: 100%;
+}
+
+/* ----------------------------------------------------------------------- */
+.boxAmimation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: boxAnimationExample;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+.AnimationBox {
+    min-height: 400px;
+    min-width: 400px;
+}
+
+@keyframes boxAnimationExample {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+/* ----------------------------------------------------------------------- */
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+        color: white;
+    }
+}
