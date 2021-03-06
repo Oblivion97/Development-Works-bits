@@ -1,0 +1,107 @@
+hrml,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.block {
+    color: white;
+    background-color: black;
+    padding: 5%;
+}
+
+.block-1 {
+    background-color: #324376;
+
+}
+
+.full-page {
+    height: 100vh;
+
+}
+
+.carousel-placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    background-size: cover;
+}
+
+.carousel-placeholder-1 {
+    background-color: #f76c5e;
+}
+
+.carousel-placeholder-2 {
+    background-color: #324376;
+}
+
+.carousel-placeholder-3 {
+    background-color: #586ba4;
+}
+
+.carousel-item {
+    height: 50vh;
+}
+
+#featured-products-carousel {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#logoImage {
+    height: 40px;
+    width: 50px;
+}
+
+#overviewLogo {
+    height: 50px;
+    width: 60px;
+}
+
+.block {
+    color: white;
+    align-content: center;
+    padding: 5%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#services {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.block-1 {
+    background-color: #324376;
+}
+
+.block-2 {
+    background-color: #586ba4;
+}
+
+.block-3 {
+    background-color: #f76c5e;
+}
+
+.block-4 {
+    background-color: #f68e5f;
+}
+
+@media only screen and (min-width: 700px) {
+
+    .block-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .first-order-reponsive {
+        order: 1;
+    }
+
+    .second-order-responsive {
+        order: 2;
+    }
+
+}
