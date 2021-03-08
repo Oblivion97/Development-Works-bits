@@ -4,3 +4,12 @@
     outline-color: black;
     outline-width: thick;
 }
+
+.modal-backdrop {
+    display: none !important;
+}
+
+.modal-open .modal {
+    width: 300px;
+    margin: 0 auto;
+}
