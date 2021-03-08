@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS All Property List</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -42,6 +43,13 @@
         </ul>
     </nav>
 
+    <div class="container mt-3">
+        <h2>Filterable List</h2>
+        <p>Type something in the input field to search the list for specific items:</p>
+        <input class="form-control" id="myInput" type="text" placeholder="Search..">
+        <br>
+    </div>
+
     <div class="w3-responsive p-5 m-5">
 
         <style type="text/css">
@@ -63,7 +71,7 @@
                 font-weight: bold;
             }
         </style>
-        <table class="tableizer-table table-bordered">
+        <table id="myTable" class="tableizer-table table-bordered">
             <thead>
                 <tr class="tableizer-firstrow">
                     <th>Property</th>
@@ -757,6 +765,17 @@
         </table>
 
     </div>
+
+    <script>
+        $(document).ready(function () {
+            $("#myInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#myTable tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
 
     <!-- bootstrap 5 -->
     <!-- <script src="index.js"></script>
