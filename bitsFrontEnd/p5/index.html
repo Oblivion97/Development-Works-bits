@@ -8,110 +8,130 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
-    <title>BootStrap</title>
+    <title>Page 5</title>
 </head>
 
 <body>
 
-    <div class="container-fluid">
+
+    <!-- Top Navbar Start Here -->
+    <div class="topNavbar">
         <div class="navbarTopLIne"></div>
-        <div class="container-fluid">
-            <nav id="NavbarParent" class="navbar">
+        <nav id="NavbarParent" class="navbar">
 
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><img class="bracLogo" src="./img/brac-logo rgb.svg"
-                            alt="Brac Logo"></a>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img class="bracLogo" src="./img/brac-logo rgb.svg"
+                        alt="Brac Logo"></a>
+            </div>
+            <div class="navMiddleIcon">
+                <div class="UploadText">
+                    <!-- <p><u class="UploadUnderline">Upload </u></p> -->
+                    <p>Upload</p>
                 </div>
-                <div class="navMiddleIcon">
-                    <div class="UploadText">
-                        <!-- <p><u class="UploadUnderline">Upload </u></p> -->
-                        <p>Upload</p>
+                <div>
+                    <svg id="UploadIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-cloud-upload-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M8 0a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 4.095 0 5.555 0 7.318 0 9.366 1.708 11 3.781 11H7.5V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11h4.188C14.502 11 16 9.57 16 7.773c0-1.636-1.242-2.969-2.834-3.194C12.923 1.999 10.69 0 8 0zm-.5 14.5V11h1v3.5a.5.5 0 0 1-1 0z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="usrnotcrwn">
+                <div class="">
+                    <a href="#"><img id="bellLogo" src="./img/notification.svg" alt="bell"></a>
+                </div>
+                <div>
+                    <a href="#"><img id="crownLogo" src="./img/crown.svg" alt="crown"></a>
+                </div>
+                <div type="button" data-toggle="dropdown" class="UserMedia dropdown">
+                    <div>
+                        <img id="UserLogo" src="./img/profile-user.svg" alt="User">
                     </div>
                     <div>
-                        <svg id="UploadIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                            fill="currentColor" class="bi bi-cloud-upload-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M8 0a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 4.095 0 5.555 0 7.318 0 9.366 1.708 11 3.781 11H7.5V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11h4.188C14.502 11 16 9.57 16 7.773c0-1.636-1.242-2.969-2.834-3.194C12.923 1.999 10.69 0 8 0zm-.5 14.5V11h1v3.5a.5.5 0 0 1-1 0z" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="usrnotcrwn">
-                    <div class="">
-                        <a href="#"><img id="bellLogo" src="./img/notification.svg" alt="bell"></a>
+                        <p class="UserInfo">Mahmudul Hasan</p>
+                        <p class="Usercredential">Programmer</p>
                     </div>
                     <div>
-                        <a href="#"><img id="crownLogo" src="./img/crown.svg" alt="crown"></a>
+                        <i class="fa fa-caret-down"></i>
                     </div>
-                    <div type="button" data-toggle="dropdown" class="UserMedia dropdown">
-                        <div>
-                            <img id="UserLogo" src="./img/profile-user.svg" alt="User">
-                        </div>
-                        <div>
-                            <p class="UserInfo">Mahmudul Hasan</p>
-                            <p class="Usercredential">Programmer</p>
-                        </div>
-                        <div>
-                            <i class="fa fa-caret-down"></i>
-                        </div>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/user.png"
-                                    alt="user icon">
-                                My Profile</a>
-                            <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/star.png"
-                                    alt="Favourite">
-                                My
-                                Favourite</a>
-                            <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/cloud-computing.png"
-                                    alt="Downloads">
-                                My Download</a>
-                            <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/Upload.png"
-                                    alt="Uploads">
-                                My uploads</a>
-                            <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/logout.png"
-                                    alt="Sign Out">
-                                Sign Out</a>
-                        </div>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/user.png" alt="user icon">
+                            My Profile</a>
+                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/star.png" alt="Favourite">
+                            My
+                            Favourite</a>
+                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/cloud-computing.png"
+                                alt="Downloads">
+                            My Download</a>
+                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/Upload.png" alt="Uploads">
+                            My uploads</a>
+                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/logout.png"
+                                alt="Sign Out">
+                            Sign Out</a>
                     </div>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </div>
-    <!-- <h1 class="display-1">Shishir vai page update</h1> -->
+    <!-- Top Navbar End Here -->
+
+
     <div class="container">
-
-
         <div class="row">
+
+            <!-- Mid row 1st column start Here -->
             <div class="col-5">
                 <div>
                     <p id="wordart">Word Art</p>
                 </div>
-                <div><img class="center" src="https://www.pngrepo.com/png/158413/512/worldwide.png" alt="page"
-                        id="imgTec"></div>
+                <div class="imagediv"><img class="center" src="./img/Kr-Asset/wordart4.png" alt="page" id="imgTec">
+                </div>
 
-                <div>
+
+                <div class="KeywordaddandList">
                     <p id="division">Keywards</p>
-                    <div id="keywords" class="d-flex flex-row wrap justify-content-between">
-                        <p>Technology</p>
-                        <p>Information</p>
-                        <p>Comic</p>
+                    <div class="input-group">
+                        <input id="keywordadd" type="text"
+                            placeholder=" &#xf040 | To Add Keyword Type and Separate with comma..." />
                     </div>
 
+                    <div class="keywordSpacing">
+                        <div id="keywords" class="d-flex flex-row wrap justify-content-around">
 
-                    <div id="keywords" class="d-flex flex-row wrap justify-content-between">
-                        <p>Media</p>
-                        <p>Cinema</p>
-                        <p>Communication</p>
+                            <p id="keywordbackground">Technology</p>
+
+
+                            <p id="keywordbackground">Information</p>
+
+
+
+                            <p id="keywordbackground">Comic</p>
+
+                        </div>
+
+
+                        <div id="keywords" class="d-flex flex-row wrap justify-content-between">
+                            <p id="keywordbackground">Media</p>
+                            <p id="keywordbackground">Cinema</p>
+                            <p id="keywordbackground">Communication</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- Mid row 1st column end Here -->
 
-            <div class="col-2"></div>
+            <!-- mid row 2nd col spacing column start here -->
+            <div class="col-1"></div>
+            <!-- mid row 2nd col spacing column start here -->
 
-            <div class="col-5 ">
 
+            <!-- mid row 3rd col spacing column start here -->
+            <div class="col-6 ">
                 <div class="d-flex flex-row wrap">
-                    <p><i class="fa fa-file-pdf-o" aria-hidden="true"></i></p>
+                    <p><img src="./img/Kr-Asset/PDF.svg" alt="" srcset=""></p>
                     <div class="container">
                         <p id="Apdf"> Activities in Africa.pdf</p>
                     </div>
@@ -121,26 +141,104 @@
 
 
                 <div class="filds">
-                    <p id="division">Uploaded</p>
-                    <p id="keywords">Touhidul Islam</p>
+                    <p id="division">Uploaded By</p>
+                    <input id="Name" type="text" placeholder="Touhidul Islam">
+                    <!-- <p >Touhidul Islam</p> -->
+                </div>
+
+                <div class="filds d-flex flex-lg-row flex-sm-column justify-content-between">
+                    <div>
+                        <div>
+                            <p id="division">Division</p>
+                        </div>
+                        <div id="DivitionDrop" class="form-group">
+                            <select class="form-control" id="dropdownSelectDivision" disabled>
+                                <option>Technology</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p id="pDT">Published Date and Time</p>
+                        </div>
+                        <div class="">
+                            <input type="datetime-local" id="timeDate" name="timeDate" aria-disabled="true">
+                        </div>
+                    </div>
                 </div>
 
                 <div class="filds">
-                    <p id="division">Division</p>
-                    <p id="keywords">Technology</p>
+                    <p id="division">Description <span id="optional">(Optional)</span></p>
+
+                    <input type="text" name="Description" id="DescriptionInpField"
+                        placeholder="Our bars contain 69% less sugar than traditional candy bars.And no fake sweetners.">
+                    <!-- <p id="keywords">
+                    </p> -->
+                </div>
+                <div class="fildsbottombutton">
+                    <p id="division">Permission</p>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1"
+                            data-toggle="dropdown"><span><img src="./img/Kr-Asset/share.svg" alt=""></span> Share with
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                            <li> <input type="radio" id="public" value="Public"> <label id="PubicLabel"> Public</label>
+                            </li>
+
+                            <li><input type="radio" id="OnlyMe" value="Only Me"> <label id="OnlyMeLabel"> Only
+                                    Me</label>
+                            </li>
+
+                            <li>
+
+                                <button class="btn btn-default dropdown-toggle" type="button" id="SpecificPerson"
+                                    data-toggle="dropdown">Specific Person
+                                    <span class="caret"></span></button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="SpecificPerson"></ul>
+                            </li>
+                            <li>
+
+                                <button class="btn btn-default dropdown-toggle" type="button" id="DivisionAndGrade"
+                                    data-toggle="dropdown">Division And Grade
+                                    <span class="caret"></span></button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="DivisionAndGrade"></ul>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="filds">
-                    <p id="division">Published Date and Time</p>
-                    <p id="keywords">February 9, 2021 | 4:09 PM</p>
+                <div class="SpecificAndDivid d-flex flex-lg-row flex-sm-column justify-content-between">
+                    <div id="ddown2">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="menu2"
+                                data-toggle="dropdown"><span><img src="./img/Kr-Asset/specific-person.svg"
+                                        alt=""></span> Specific Person
+                                <span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li>H M Mahmudul Hasan</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div id="ddown3">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="menu3"
+                                data-toggle="dropdown" disabled> <span><img src="./img/Kr-Asset/programme.svg"
+                                        alt=""></span>Division And Grade
+                                <span class="caret"></span></button>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="filds">
-                    <p id="division">Description</p>
-                    <p id="keywords">Our bars contain 69% less sugar than traditional candy bars.</p>
-                    <p id="keywords"> And no fake sweetners.</p>
-                </div>
             </div>
+            <!-- mid row 3rd col spacing column end here -->
+
         </div>
 
 
@@ -149,15 +247,17 @@
 
     </div>
 
-
-    <div class="container d-flex flex-row justify-content-center" id="footer">
-        <button class="btn" id="norm"><code id="norm">
-                <</code>Back </button> <button class="btn pill" id="pil"><i class="fa fa-download"></i>
-                    Download</button>
+    <!-- Footer button start here -->
+    <div class="footerbuttonlist container d-flex d-flex flex-lg-row flex-sm-column justify-content-center" id="footer">
+        <button class="btn" id="norm">
+            < Back</button> <button class="btn pill" id="pil"><i class="fa fa-download"></i>
+                Download
+        </button>
         <button class="btn pill" id="pil1"><span class="fa fa-star"></span> Add to Favourite</button>
         <button class="btn pill" id="pil2"><span class="fa fa-pencil"></span> Edit</button>
         <button class="btn pill" id="pil3"><span class="fa fa-trash"></span> Delete</button>
     </div>
+    <!-- Footer button end here -->
 
 
 
@@ -166,7 +266,8 @@
 
 
 
-
+    <!-- Custom JavaScript -->
+    <!-- <script src="index.js"></script> -->
     <!-- bootstrap 5 -->
     <!-- <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"

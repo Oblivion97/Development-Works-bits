@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_633" data-name="Group 633" transform="translate(-733.722 -102.239)">
+    <path id="Path_192" data-name="Path 192" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Z" transform="translate(733.722 102.239)" fill="#d10d74"/>
+    <path id="Icon_ionic-ios-close" data-name="Icon ionic-ios-close" d="M18.707,17.287,22.993,13a1,1,0,0,0-1.42-1.42l-4.286,4.286L13,11.581A1,1,0,1,0,11.581,13l4.286,4.286-4.286,4.286A1,1,0,0,0,13,22.993l4.286-4.286,4.286,4.286a1,1,0,0,0,1.42-1.42Z" transform="translate(731.437 99.952)" fill="#fff"/>
+  </g>
+</svg>

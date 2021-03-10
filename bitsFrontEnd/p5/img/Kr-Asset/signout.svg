@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <g id="Group_566" data-name="Group 566" transform="translate(-1238.116 -170.644)">
+    <circle id="Ellipse_35" data-name="Ellipse 35" cx="7.5" cy="7.5" r="7.5" transform="translate(1238.116 170.644)" fill="#a0a5af"/>
+    <g id="bx-log-out-circle" transform="translate(1250.045 182.284) rotate(180)">
+      <path id="Path_179" data-name="Path 179" d="M0,1.709,2.137,3.419V2.137H5.983V1.282H2.137V0Z" transform="translate(0 2.137)" fill="#fff"/>
+      <path id="Path_180" data-name="Path 180" d="M2.72,0A3.82,3.82,0,0,0,0,1.127l.6.6A2.992,2.992,0,0,1,5.712,3.847,2.993,2.993,0,0,1,2.72,6.839,2.971,2.971,0,0,1,.6,5.962l-.6.6a3.846,3.846,0,0,0,5.439,0A3.847,3.847,0,0,0,2.72,0Z" transform="translate(1.982 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

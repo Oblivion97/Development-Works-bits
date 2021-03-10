@@ -1,7 +1,37 @@
+body {
+    font: normal normal normal Helvetica Neue;
+    color: #4d4f53;
+}
+
 .navbarTopLIne {
     width: 100%;
     height: 13px;
     background-color: #D10D74;
+}
+
+.topNavbar {
+    margin-bottom: 3%;
+}
+
+.imagediv {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.keywordSpacing {
+    margin-top: 3%;
+}
+
+.SpecificAndDivid {
+    margin-top: 3%;
+}
+
+.KeywordaddandList {
+    margin-top: 8%;
+}
+
+.footerbuttonlist {
+    margin-top: 3%;
 }
 
 .bracLogo {
@@ -37,7 +67,6 @@
 #crownLogo,
 #bellLogo,
 #UserLogo {
-
     top: 44px;
     left: 982px;
     width: 25px;
@@ -72,7 +101,6 @@
     font-size: small;
 }
 
-
 .userIconNav {
     height: 15px;
     width: 15px;
@@ -89,10 +117,7 @@
 }
 
 #Apdf {
-    top: 133px;
-    left: 683px;
-    width: 261px;
-    height: 3%;
+    margin-bottom: 23px;
     font-size: 22px;
     font-weight: bold;
     font-family: "Helvetica Neue";
@@ -103,30 +128,59 @@
     opacity: 1;
 }
 
-
-
-
 #pdf {
     height: 26px;
-    background: #A0A5AF 0% 0% no-repeat padding-box;
     opacity: 1;
     font-size: 26px;
 }
 
-
-#division {
+#division,
+#pDT {
     color: #3db7e4;
     text-align: left;
     font: normal normal normal 14px/16px Helvetica Neue;
     font-family: Helvetica Neue;
     letter-spacing: 0px;
     color: #3DB7E4;
-    margin-bottom: 0px;
+    margin-bottom: 1.5%;
     opacity: 1;
 }
 
+#timeDate {
+    height: 40px;
+    background: #e9ecef 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    border: 0px;
+}
+
+#dropdownSelectDivision {
+    width: 225px;
+    border: 0px;
+}
+
+#keywordadd {
+    border: 0px;
+    background-color: #e9ecef;
+    width: 100%;
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#DescriptionInpField {
+    border: 0px;
+    background-color: #e9ecef;
+    width: 100%;
+    font-family: 'Helvetica',
+        FontAwesome,
+        sans-serif;
+    height: 40px;
+    border-radius: 5px;
+}
 
 #keywords {
+    justify-content: space-around;
     font-size: 18px/22px;
     font-family: helvetica Neue;
     letter-spacing: 0;
@@ -137,12 +191,33 @@
     flex-wrap: wrap;
 }
 
+#Name {
+    border: 0;
+    color: #4d4f53;
+    background-color: #e9ecef;
+    text-align: left;
+    opacity: 1;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+}
+
+#keywordbackground {
+    background-color: #F7F7F7;
+}
+
+#optional {
+    color: #d2d2d2;
+}
+
 .flx {
     display: flex;
 }
 
 .filds {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 #imgTec {
@@ -179,7 +254,78 @@
     margin-right: 15px;
 }
 
-#footer {
-    margin-top: 100px;
+#ddown {
 
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+
+}
+
+#menu1 {
+    text-align: left;
+    font: normal normal normal 16px/18px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #4d4f53;
+    opacity: 1;
+}
+
+#PubicLabel {
+    text-align: left;
+    font: normal normal normal 16px/18px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #A0A5AF;
+    opacity: 1;
+}
+
+#OnlyMeLabel {
+    text-align: left;
+    font: normal normal normal 16px/18px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #A0A5AF;
+    opacity: 1
+}
+
+#SpecificPerson {
+    text-align: left;
+    font: normal normal normal 16px/18px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #A0A5AF;
+    opacity: 1
+}
+
+#DivisionAndGrade {
+    text-align: left;
+    font: normal normal normal 16px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #A0A5AF;
+    opacity: 1
+}
+
+#ddown2 {
+    text-align: left;
+    font: normal normal normal 16px/18px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #A0A5AF;
+    opacity: 1;
+}
+
+#menu2 {
+    text-align: left;
+    font: normal normal normal 16px/18px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #A0A5AF;
+    opacity: 1;
+}
+
+#ddown3 {
+    opacity: 1;
+}
+
+#menu3 {
+    text-align: left;
+    font: normal normal normal 16px/18px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #A0A5AF;
+    opacity: 1;
 }
