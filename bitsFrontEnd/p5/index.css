@@ -72,34 +72,13 @@
     font-size: small;
 }
 
-/* .userDropdown {
-    top: 35px;
-    left: 1098px;
-    width: 113px;
-    height: 37px;
-    text-align: left;
-    letter-spacing: NaNpx;
-    opacity: 1;
-} */
-
-
-/* .dropdown-toggle {
-    align-item: center;
-    
-} */
 
 .userIconNav {
     height: 15px;
     width: 15px;
 }
 
-/* shishir vai page style */
 #wordart {
-    /* top: 138px;
-left: 108px;
-width: 84px;
-height: 7.401%; */
-
     font: 20px/25px;
     font-weight: bolder;
     font-family: "Helvetica Neue";
@@ -128,9 +107,6 @@ height: 7.401%; */
 
 
 #pdf {
-    /* top: 132px;
-left: 640px; */
-
     height: 26px;
     background: #A0A5AF 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -146,16 +122,11 @@ left: 640px; */
     letter-spacing: 0px;
     color: #3DB7E4;
     margin-bottom: 0px;
-
     opacity: 1;
 }
 
 
-#touhidul {
-    /* top: 228px;
-left: 641px;
-width: 115px;
-height: 21px; */
+#keywords {
     font-size: 18px/22px;
     font-family: helvetica Neue;
     letter-spacing: 0;
@@ -175,8 +146,6 @@ height: 21px; */
 }
 
 #imgTec {
-    /* height: 279px;
-    width: 279px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -193,7 +162,9 @@ height: 21px; */
 
 }
 
-#pil1 {
+#pil1,
+#pil2,
+#pil3 {
     border-radius: 16px;
     color: white;
     background-color: #A0A5AF;
