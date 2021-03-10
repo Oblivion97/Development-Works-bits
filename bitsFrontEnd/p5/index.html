@@ -41,34 +41,37 @@
             </div>
             <div class="usrnotcrwn">
                 <div class="">
-                    <a href="#"><img id="bellLogo" src="./img/notification.svg" alt="bell"></a>
+                    <a href="#"><img id="bellLogo" src="./img/Kr-Asset/notification.svg" alt="bell"></a>
                 </div>
                 <div>
-                    <a href="#"><img id="crownLogo" src="./img/crown.svg" alt="crown"></a>
+                    <a href="#"><img id="crownLogo" src="./img/Kr-Asset/leaderboard.svg" alt="crown"></a>
                 </div>
                 <div type="button" data-toggle="dropdown" class="UserMedia dropdown">
                     <div>
-                        <img id="UserLogo" src="./img/profile-user.svg" alt="User">
+                        <img id="UserLogo" src="./img/Kr-Asset/you.svg" alt="User">
                     </div>
-                    <div>
+                    <div class="UserInfoParent">
                         <p class="UserInfo">Mahmudul Hasan</p>
                         <p class="Usercredential">Programmer</p>
                     </div>
-                    <div>
+                    <div class="downarrow">
                         <i class="fa fa-caret-down"></i>
                     </div>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/user.png" alt="user icon">
+                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/Kr-Asset/profile.svg"
+                                alt="user icon">
                             My Profile</a>
-                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/star.png" alt="Favourite">
+                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/Kr-Asset/fav.svg"
+                                alt="Favourite">
                             My
                             Favourite</a>
-                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/cloud-computing.png"
-                                alt="Downloads">
+                        <a class="dropdown-item" href="#"><img class="userIconNav"
+                                src="./img/Kr-Asset/download-file-unselected.svg" alt="Downloads">
                             My Download</a>
-                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/Upload.png" alt="Uploads">
+                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/Kr-Asset/my-upload.svg"
+                                alt="Uploads">
                             My uploads</a>
-                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/logout.png"
+                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/Kr-Asset/signout.svg"
                                 alt="Sign Out">
                             Sign Out</a>
                     </div>
@@ -173,10 +176,11 @@
                 <div class="filds">
                     <p id="division">Description <span id="optional">(Optional)</span></p>
 
-                    <input type="text" name="Description" id="DescriptionInpField"
-                        placeholder="Our bars contain 69% less sugar than traditional candy bars.And no fake sweetners.">
-                    <!-- <p id="keywords">
-                    </p> -->
+                    <!-- <textarea type="text" name="Description" id="DescriptionInpField"
+                        placeholder="Our bars contain 69% less sugar than traditional candy bars.And no fake
+                        sweetners."></textarea> -->
+                    <textarea name="Description" id="DescriptionInpField" maxlength="250"
+                        placeholder="Our bars contain 69% less sugar than traditional candy bars. And no fake sweetners."></textarea>
                 </div>
                 <div class="fildsbottombutton">
                     <p id="division">Permission</p>
@@ -230,7 +234,7 @@
                         <div class="dropdown">
                             <button class="btn btn-default dropdown-toggle" type="button" id="menu3"
                                 data-toggle="dropdown" disabled> <span><img src="./img/Kr-Asset/programme.svg"
-                                        alt=""></span>Division And Grade
+                                        alt=""></span> Division And Grade
                                 <span class="caret"></span></button>
                         </div>
                     </div>
@@ -248,11 +252,10 @@
     </div>
 
     <!-- Footer button start here -->
-    <div class="footerbuttonlist container d-flex d-flex flex-lg-row flex-sm-column justify-content-center" id="footer">
-        <button class="btn" id="norm">
-            < Back</button> <button class="btn pill" id="pil"><i class="fa fa-download"></i>
-                Download
-        </button>
+    <div class="footerbuttonlist container d-flex flex-lg-row flex-sm-column justify-content-center" id="footer">
+
+        <button class="btn pill" id="pilback"><span class="fa fa-angle-left"></span> Back</button>
+        <button class="btn pill" id="pil"><i class="fa fa-download"></i> Download</button>
         <button class="btn pill" id="pil1"><span class="fa fa-star"></span> Add to Favourite</button>
         <button class="btn pill" id="pil2"><span class="fa fa-pencil"></span> Edit</button>
         <button class="btn pill" id="pil3"><span class="fa fa-trash"></span> Delete</button>
