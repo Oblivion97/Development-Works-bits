@@ -137,7 +137,7 @@ body,
 }
 
 #Apdf {
-    margin-bottom: 23px;
+    margin-bottom: 30px;
     font-size: 22px;
     font-weight: bold;
 
@@ -188,6 +188,7 @@ body,
 }
 
 #DescriptionInpField {
+    height: 40px;
     overflow: hidden;
     border: 0px;
     background-color: #e9ecef;
