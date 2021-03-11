@@ -176,6 +176,8 @@ body,
 }
 
 #timeDate {
+    width: 100%;
+    min-width: 240px;
     height: 40px;
     background: #e9ecef 0% 0% no-repeat padding-box;
     border-radius: 5px;
@@ -184,7 +186,8 @@ body,
 }
 
 #dropdownSelectDivision {
-    width: 240px;
+    width: 100%;
+    min-width: 240px;
     border: 0px;
 }
 
