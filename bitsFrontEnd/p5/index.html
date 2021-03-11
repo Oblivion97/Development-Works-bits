@@ -178,8 +178,8 @@
                     <!-- <textarea type="text" name="Description" id="DescriptionInpField"
                         placeholder="Our bars contain 69% less sugar than traditional candy bars.And no fake
                         sweetners."></textarea> -->
-                    <textarea name="Description" id="DescriptionInpField" maxlength="250"
-                        placeholder="Our bars contain 69% less sugar than traditional candy bars. And no fake sweetners."></textarea>
+                    <textarea rows="4" name="Description" id="DescriptionInpField"
+                        placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></textarea>
                 </div>
                 <div class="fildsbottombutton container-fluid">
                     <p id="division">Permission</p>
@@ -188,25 +188,25 @@
                             data-toggle="dropdown"><span><img src="./img/Kr-Asset/share.svg" alt=""></span> Share with
                             <span class="caret"></span></button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li> <input type="radio" id="public" value="Public"> <label id="PubicLabel"> Public</label>
-                            </li>
+                            <li> <label id="Pub"> <span><img src="./img/Kr-Asset/public.svg" alt=""></span> Public
+                                </label><input type="radio" id="mn" value="Public"> </li>
 
-                            <li><input type="radio" id="OnlyMe" value="Only Me"> <label id="OnlyMeLabel"> Only
-                                    Me</label>
-                            </li>
+                            <li> <label id="Only"> <span><img src="./img/Kr-Asset/only-me.svg" alt=""></span>
+                                    Only Me </label><input type="radio" id="nm" value="Only Me"> </li>
 
                             <li>
-
                                 <button class="btn btn-default dropdown-toggle" type="button" id="SpecificPerson"
-                                    data-toggle="dropdown">Specific Person
-                                    <span class="caret"></span></button>
+                                    data-toggle="dropdown"> <span><img src="./img/Kr-Asset/specific-person.svg"
+                                            alt=""></span> Specific
+                                    Person
+                                </button>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="SpecificPerson"></ul>
                             </li>
                             <li>
-
                                 <button class="btn btn-default dropdown-toggle" type="button" id="DivisionAndGrade"
-                                    data-toggle="dropdown">Division And Grade
-                                    <span class="caret"></span></button>
+                                    data-toggle="dropdown">
+                                    <span><img src="./img/Kr-Asset/programme.svg" alt=""></span> Division And Grade
+                                </button>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="DivisionAndGrade"></ul>
                             </li>
 
@@ -222,7 +222,7 @@
                                         alt=""></span> Specific Person
                                 <span class="caret"></span></button>
                             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                                <li>H M Mahmudul Hasan</li>
+                                <li id="namestyle">H M Mahmudul Hasan</li>
                             </ul>
                         </div>
                     </div>
@@ -253,7 +253,8 @@
     <!-- Footer button start here -->
     <div class="footerbuttonlist container d-flex flex-lg-row flex-sm-column justify-content-center" id="footer">
 
-        <button class="btn pill" id="pilback"><span class="fa fa-angle-left"></span> Back</button>
+        <button class="btn pill" id="pilback"><img class="backbutton" src="./img/Kr-Asset/back.svg" alt="">
+            Back</button>
         <button class="btn pill" id="pil"><i class="fa fa-download"></i> Download</button>
         <button class="btn pill" id="pil1"><span class="fa fa-star"></span> Add to Favourite</button>
         <button class="btn pill" id="pil2"><span class="fa fa-pencil"></span> Edit</button>

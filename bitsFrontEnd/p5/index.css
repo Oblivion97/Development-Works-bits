@@ -50,8 +50,8 @@ body,
 .bracLogo {
     top: 26px;
     left: 46px;
-    width: 151px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
     opacity: 1;
 }
 
@@ -131,6 +131,7 @@ body,
 
 .Usercredential {
     font-size: 18px;
+    color: #A0A5AF;
 }
 
 .userIconNav {
@@ -183,11 +184,13 @@ body,
 }
 
 #timeDate {
+    padding: .357rem .75rem;
+    color: #4d4f53;
     width: 100%;
     /* min-width: 240px; */
     height: 40px;
     background: #e9ecef 0% 0% no-repeat padding-box;
-    border-radius: 5px;
+    border-radius: 8px;
     opacity: 1;
     border: 0px;
 }
@@ -196,16 +199,37 @@ body,
     width: 100%;
     /* min-width: 240px; */
     border: 0px;
+    border-radius: 8px;
+}
+
+#Pub,
+#Only {
+    margin-left: 5%;
+    color: #A0A5AF;
+}
+
+#namestyle {
+    padding: .357rem .75rem;
+}
+
+#mn {
+    margin-left: 51%;
+}
+
+#nm {
+    margin-left: 42%;
 }
 
 #keywordadd {
+    padding: .357rem .75rem;
+    color: #4d4f53;
     /* min-width: 240px; */
     border: 0px;
     background-color: #e9ecef;
     width: 100%;
     font-family: 'Helvetica', FontAwesome, sans-serif;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 #DivitionDrop {
@@ -213,14 +237,23 @@ body,
 }
 
 
+.backbutton {
+    margin-top: -10%;
+}
+
+
+
 #DescriptionInpField {
+    padding: .357rem .75rem;
+    color: #4d4f53;
+    /* resize: none; */
     /* min-width: 240px; */
     overflow: hidden;
     border: 0px;
     background-color: #e9ecef;
     width: 100%;
-    height: 40px;
-    border-radius: 5px;
+    height: 80px;
+    border-radius: 8px;
 }
 
 #keywords {
@@ -234,8 +267,10 @@ body,
     flex-wrap: wrap;
 }
 
+
 #Name {
     /* min-width: 240px; */
+    padding: .375rem .75rem;
     border: 0;
     color: #4d4f53;
     background-color: #e9ecef;
@@ -243,12 +278,13 @@ body,
     opacity: 1;
     margin-bottom: 0px;
     flex-wrap: wrap;
-    border-radius: 5px;
+    border-radius: 8px;
     height: 40px;
     width: 100%;
 }
 
 #keywordbackground {
+    border-radius: 20px;
     background-color: #F7F7F7;
     margin-right: 1%;
     margin-left: 1%;
@@ -322,7 +358,7 @@ body,
 
 
 #pil {
-    border-radius: 16px;
+    border-radius: 20px;
     color: white;
     background-color: #3DB7E4;
     margin-left: 15px;
@@ -332,6 +368,7 @@ body,
 }
 
 #pilback {
+    border-radius: 20px;
     margin-bottom: 1.5%;
     border-radius: 16px;
     color: #A0A5AF;
@@ -343,8 +380,8 @@ body,
 #pil1,
 #pil2,
 #pil3 {
+    border-radius: 20px;
     margin-bottom: 1.5%;
-    border-radius: 16px;
     color: white;
     background-color: #A0A5AF;
     margin-left: 15px;
@@ -367,6 +404,7 @@ body,
 }
 
 #menu1 {
+    border-radius: 17px;
     text-align: left;
     font: normal normal normal 16px Helvetica Neue;
     letter-spacing: 0px;
@@ -412,9 +450,11 @@ body,
     letter-spacing: 0px;
     color: #A0A5AF;
     opacity: 1;
+    border-radius: 17px;
 }
 
 #menu2 {
+    border-radius: 17px;
     text-align: left;
     font-size: 18px;
     letter-spacing: 0px;
@@ -427,6 +467,7 @@ body,
 }
 
 #menu3 {
+    border-radius: 17px;
     text-align: left;
     font-size: 18px;
     letter-spacing: 0px;
