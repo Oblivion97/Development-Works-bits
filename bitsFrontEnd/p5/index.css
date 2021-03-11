@@ -7,7 +7,6 @@ body,
 
 #bellActive {
     margin-left: -10px;
-    margin-right: 20px;
     margin-top: 0px;
     border-radius: 100%;
     background: #D10D74;
@@ -97,8 +96,8 @@ body,
 #UserLogo {
     top: 44px;
     left: 982px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-left: 5px;
@@ -112,13 +111,14 @@ body,
 }
 
 .UserMedia {
+    align-items: center;
     display: flex;
     flex-direction: row;
 
 }
 
 .UserInfoParent {
-    width: 200px;
+    width: 100%;
 }
 
 .UserInfo {
@@ -179,15 +179,15 @@ body,
 }
 
 #midContainer {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #timeDate {
+    outline: none;
     padding: .357rem .75rem;
     color: #4d4f53;
     width: 100%;
-    /* min-width: 240px; */
     height: 40px;
     background: #e9ecef 0% 0% no-repeat padding-box;
     border-radius: 8px;
@@ -195,9 +195,46 @@ body,
     border: 0px;
 }
 
+
+
+
+.rightborder {
+    margin-top: 10px;
+    border-right: 1.5px solid;
+    border-color: #4D4F53;
+    height: 20px;
+    padding-left: 35px;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    line-height: 2rem;
+    text-align: center;
+    pointer-events: none;
+    color: #e9ecef;
+    margin-bottom: 10px;
+}
+
+.penciliconkeyAdd {
+    padding-left: 10px;
+    padding-top: 10px;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    /* width: 1rem;
+    height: 1rem; */
+    line-height: 2rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.profileDropdownmenu {
+    right: 0px;
+}
+
 #dropdownSelectDivision {
+    outline: none;
     width: 100%;
-    /* min-width: 240px; */
     border: 0px;
     border-radius: 8px;
 }
@@ -220,10 +257,15 @@ body,
     margin-left: 42%;
 }
 
+
+
 #keywordadd {
-    padding: .357rem .75rem;
+    outline: none;
+    padding-top: .357rem;
+    padding-bottom: .375rem;
+    padding-left: 2.75rem;
+    padding-right: .75rem;
     color: #4d4f53;
-    /* min-width: 240px; */
     border: 0px;
     background-color: #e9ecef;
     width: 100%;
@@ -232,9 +274,9 @@ body,
     border-radius: 8px;
 }
 
-#DivitionDrop {
+/* #DivitionDrop {
     margin-right: 2%;
-}
+} */
 
 
 .backbutton {
@@ -244,10 +286,9 @@ body,
 
 
 #DescriptionInpField {
+    outline: none;
     padding: .357rem .75rem;
     color: #4d4f53;
-    /* resize: none; */
-    /* min-width: 240px; */
     overflow: hidden;
     border: 0px;
     background-color: #e9ecef;
@@ -269,7 +310,7 @@ body,
 
 
 #Name {
-    /* min-width: 240px; */
+    outline: none;
     padding: .375rem .75rem;
     border: 0;
     color: #4d4f53;
@@ -284,10 +325,11 @@ body,
 }
 
 #keywordbackground {
+    padding: 2px 14px;
     border-radius: 20px;
     background-color: #F7F7F7;
-    margin-right: 1%;
-    margin-left: 1%;
+    margin: 1%;
+
 }
 
 #optional {
@@ -310,20 +352,49 @@ body,
 
 }
 
-/* @media screen and (max-width: 450px) {
+#footerbuttonIcon1,
+#footerbuttonIcon2,
+#footerbuttonIcon3,
+#footerbuttonIcon4,
+#footerbuttonIcon5 {
+    margin-bottom: 5px;
+}
 
-    #pilback,
-    #pil,
-    #pil1,
-    #pil2,
-    #pil3 {
+
+/* 289 */
+@media screen and (max-width: 289px) {
+    .navheadersmall {
+        width: 100%;
         display: flex;
-        flex-direction: row;
+        justify-content: center;
     }
-} */
+
+    .navMiddleIcon {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* 667 */
+@media screen and (max-width: 884px) {
+    .usrnotcrwn {
+        /* background-color: #3DB7E4; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
 
 
+
+/* 575 */
 @media screen and (max-width: 575px) {
+    #wordart {
+        display: table;
+        margin: 0 auto;
+    }
+
     .footerbuttonlist {
         display: flex;
         flex-direction: column;
@@ -355,6 +426,10 @@ body,
     }
 }
 
+#NavbarParent {
+    padding-right: 10px;
+}
+
 
 
 #pil {
@@ -364,7 +439,7 @@ body,
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 1.5%;
-
+    height: 40px;
 }
 
 #pilback {
@@ -372,14 +447,16 @@ body,
     margin-bottom: 1.5%;
     border-radius: 16px;
     color: #A0A5AF;
-    background-color: white;
+    background-color: #F7F7F7;
     margin-left: 15px;
     margin-right: 15px;
+    height: 40px;
 }
 
 #pil1,
 #pil2,
 #pil3 {
+    height: 40px;
     border-radius: 20px;
     margin-bottom: 1.5%;
     color: white;
@@ -391,8 +468,8 @@ body,
 #norm {
     color: #A0A5AF;
     font-size: 18px;
-    margin-left: 15px;
-    margin-right: 15px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
 }
 
 #ddown {

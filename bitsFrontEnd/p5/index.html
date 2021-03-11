@@ -21,55 +21,58 @@
         <div class="navbarTopLIne"></div>
         <nav id="NavbarParent" class="navbar">
 
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#"><img class="bracLogo" src="./img/Kr-Asset/brac-logo rgb.svg"
+            <div class="navheadersmall navbar-header">
+                <a class="navbar-brand" href="#"><img class="bracLogo" src="./img/brac-logo rgb.svg"
                         alt="Brac Logo"></a>
             </div>
             <div class="navMiddleIcon">
                 <div class="UploadText">
-                    <!-- <p><u class="UploadUnderline">Upload </u></p> -->
-                    <p>Upload</p>
+                    <span>Upload</span>
                 </div>
                 <div>
-                    <img src="./img/Kr-Asset/upload.svg" alt="" srcset="">
+                    <img src="./img/upload.svg" alt="" srcset="">
                 </div>
             </div>
             <div class="usrnotcrwn">
-                <div class="d-flex">
-                    <div class="">
-                        <a href="#"><img id="bellLogo" src="./img/Kr-Asset/notification.svg" alt="bell"></a>
+                <!-- #################### -->
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                        <div class="">
+                            <a href="#"><img id="bellLogo" src="./img/notification.svg" alt="bell"></a>
+                        </div>
+                        <div id="bellActive"></div>
                     </div>
-                    <div id="bellActive"></div>
+                    <!-- ##################### -->
+                    <div class="">
+                        <a href="#"><img id="crownLogo" src="./img/leaderboard.svg" alt="crown"></a>
+                    </div>
                 </div>
-                <div>
-                    <a href="#"><img id="crownLogo" src="./img/Kr-Asset/leaderboard.svg" alt="crown"></a>
-                </div>
-                <div type="button" data-toggle="dropdown" class="UserMedia dropdown">
+                <!-- #################### -->
+                <div type="button" data-toggle="dropdown" class="UserMedia dropdown" aria-expanded="false">
                     <div>
-                        <img id="UserLogo" src="./img/Kr-Asset/you.svg" alt="User">
+                        <img id="UserLogo" src="./img/you.svg" alt="User">
                     </div>
                     <div class="UserInfoParent">
-                        <p class="UserInfo">Mahmudul Hasan</p>
-                        <p class="Usercredential">Programmer</p>
+                        <span class="UserInfo">Mahmudul Hasan</span>
+                        <span class="Usercredential">Programmer</span>
                     </div>
                     <div class="downarrow">
                         <i class="fa fa-caret-down"></i>
                     </div>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/Kr-Asset/profile.svg"
+                    <div class="dropdown-menu profileDropdownmenu">
+                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/profile.svg"
                                 alt="user icon">
                             My Profile</a>
-                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/Kr-Asset/fav.svg"
-                                alt="Favourite">
+                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/fav.svg" alt="Favourite">
                             My
                             Favourite</a>
                         <a class="dropdown-item" href="#"><img class="userIconNav"
-                                src="./img/Kr-Asset/download-file-unselected.svg" alt="Downloads">
+                                src="./img/download-file-unselected.svg" alt="Downloads">
                             My Download</a>
-                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/Kr-Asset/my-upload.svg"
+                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/my-upload.svg"
                                 alt="Uploads">
                             My uploads</a>
-                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/Kr-Asset/signout.svg"
+                        <a class="dropdown-item" href="#"><img class="userIconNav" src="./img/signout.svg"
                                 alt="Sign Out">
                             Sign Out</a>
                     </div>
@@ -84,40 +87,42 @@
         <div class="row">
 
             <!-- Mid row 1st column start Here -->
-            <div class="col-5">
+            <div class="col-sm-5">
                 <div>
-                    <p id="wordart">Word Art</p>
+                    <span id="wordart">Word Art</span>
                 </div>
-                <div class="imagediv"><img class="center" src="./img/Kr-Asset/wordart4.png" alt="page" id="imgTec">
+                <div class="imagediv"><img class="center" src="./img/wordart4.png" alt="page" id="imgTec">
                 </div>
 
 
                 <div class="KeywordaddandList container-fluid">
                     <p id="division">Keywards</p>
                     <div class="input-group">
-                        <input id="keywordadd" type="text"
-                            placeholder=" &#xf040 | To Add Keyword Type and Separate with comma..." />
+                        <span><img class="penciliconkeyAdd" src="./img/edit.svg" alt="" srcset=""><span
+                                class="rightborder"></span></span>
+
+                        <input id="keywordadd" type="text" placeholder="To Add Keyword Type and Separate with comma...">
                     </div>
 
                     <div class="keywordSpacing">
                         <div id="keywords" class="d-flex flex-row wrap justify-content-between">
 
-                            <p id="keywordbackground">Technology</p>
+                            <span id="keywordbackground">Technology</span>
 
 
-                            <p id="keywordbackground">Information</p>
+                            <span id="keywordbackground">Information</span>
 
 
 
-                            <p id="keywordbackground">Comic</p>
+                            <span id="keywordbackground">Comic</span>
 
                         </div>
 
 
                         <div id="keywords" class="d-flex flex-row wrap justify-content-between">
-                            <p id="keywordbackground">Media</p>
-                            <p id="keywordbackground">Cinema</p>
-                            <p id="keywordbackground">Communication</p>
+                            <span id="keywordbackground">Media</span>
+                            <span id="keywordbackground">Cinema</span>
+                            <span id="keywordbackground">Communication</span>
                         </div>
                     </div>
                 </div>
@@ -125,14 +130,14 @@
             <!-- Mid row 1st column end Here -->
 
             <!-- mid row 2nd col spacing column start here -->
-            <div class="col-1"></div>
+            <div class="col-sm-1"></div>
             <!-- mid row 2nd col spacing column start here -->
 
 
             <!-- mid row 3rd col spacing column start here -->
-            <div class="col-6 ">
+            <div class="col-sm-6 ">
                 <div class="d-flex flex-row wrap">
-                    <p><img src="./img/Kr-Asset/PDF.svg" alt="" srcset=""></p>
+                    <span><img src="./img/PDF.svg" alt="" srcset=""></span>
                     <div class="container">
                         <p id="Apdf"> Activities in Africa.pdf</p>
                     </div>
@@ -153,7 +158,7 @@
                             <p id="division">Division</p>
                         </div>
                         <div id="DivitionDrop" class="form-group">
-                            <select class="form-control" id="dropdownSelectDivision" disabled>
+                            <select class="form-control" id="dropdownSelectDivision" disabled="">
                                 <option>Technology</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -177,26 +182,25 @@
                     <!-- <textarea type="text" name="Description" id="DescriptionInpField"
                         placeholder="Our bars contain 69% less sugar than traditional candy bars.And no fake
                         sweetners."></textarea> -->
-                    <textarea rows="4" name="Description" id="DescriptionInpField"
-                        placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></textarea>
+                    <textarea rows="4" name="Description" id="DescriptionInpField" spellcheck="false"></textarea>
                 </div>
                 <div class="fildsbottombutton container-fluid">
                     <p id="division">Permission</p>
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" id="menu1"
-                            data-toggle="dropdown"><span><img src="./img/Kr-Asset/share.svg" alt=""></span> Share with
+                            data-toggle="dropdown"><span><img src="./img/share.svg" alt=""></span> Share with
                             <span class="caret"></span></button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li> <label id="Pub"> <span><img src="./img/Kr-Asset/public.svg" alt=""></span> Public
+                            <li> <label id="Pub"> <span><img src="./img/public.svg" alt=""></span> Public
                                 </label><input type="radio" id="mn" value="Public"> </li>
 
-                            <li> <label id="Only"> <span><img src="./img/Kr-Asset/only-me.svg" alt=""></span>
+                            <li> <label id="Only"> <span><img src="./img/only-me.svg" alt=""></span>
                                     Only Me </label><input type="radio" id="nm" value="Only Me"> </li>
 
                             <li>
                                 <button class="btn btn-default dropdown-toggle" type="button" id="SpecificPerson"
-                                    data-toggle="dropdown"> <span><img src="./img/Kr-Asset/specific-person.svg"
-                                            alt=""></span> Specific
+                                    data-toggle="dropdown"> <span><img src="./img/specific-person.svg" alt=""></span>
+                                    Specific
                                     Person
                                 </button>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="SpecificPerson"></ul>
@@ -204,7 +208,7 @@
                             <li>
                                 <button class="btn btn-default dropdown-toggle" type="button" id="DivisionAndGrade"
                                     data-toggle="dropdown">
-                                    <span><img src="./img/Kr-Asset/programme.svg" alt=""></span> Division And Grade
+                                    <span><img src="./img/programme.svg" alt=""></span> Division And Grade
                                 </button>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="DivisionAndGrade"></ul>
                             </li>
@@ -217,8 +221,9 @@
                     <div id="ddown2">
                         <div class="dropdown">
                             <button class="btn btn-default dropdown-toggle" type="button" id="menu2"
-                                data-toggle="dropdown"><span><img src="./img/Kr-Asset/specific-person.svg"
-                                        alt=""></span> Specific Person
+                                data-toggle="dropdown" aria-expanded="false"><span><img src="./img/specific-person.svg"
+                                        alt=""></span>
+                                Specific Person
                                 <span class="caret"></span></button>
                             <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
                                 <li id="namestyle">H M Mahmudul Hasan</li>
@@ -231,8 +236,8 @@
                     <div id="ddown3">
                         <div class="dropdown">
                             <button class="btn btn-default dropdown-toggle" type="button" id="menu3"
-                                data-toggle="dropdown" disabled> <span><img src="./img/Kr-Asset/programme.svg"
-                                        alt=""></span> Division And Grade
+                                data-toggle="dropdown" disabled=""> <span><img src="./img/programme.svg" alt=""></span>
+                                Division And Grade
                                 <span class="caret"></span></button>
                         </div>
                     </div>
@@ -252,14 +257,23 @@
     <!-- Footer button start here -->
     <div class="footerbuttonlist container d-flex flex-lg-row flex-sm-column justify-content-center" id="footer">
 
-        <button class="btn pill" id="pilback"><img class="backbutton" src="./img/Kr-Asset/back.svg" alt="">
+        <button class="btn pill" id="pilback"><span><img id="footerbuttonIcon1" src="./img/back.svg" alt=""
+                    srcset=""></span>
             Back</button>
-        <button class="btn pill" id="pil"><i class="fa fa-download"></i> Download</button>
-        <button class="btn pill" id="pil1"><span class="fa fa-star"></span> Add to Favourite</button>
-        <button class="btn pill" id="pil2"><span class="fa fa-pencil"></span> Edit</button>
-        <button class="btn pill" id="pil3"><span class="fa fa-trash"></span> Delete</button>
+        <button class="btn pill" id="pil"><span><img id="footerbuttonIcon2"
+                    src="./img/download-file-unselected-white.svg" alt="" srcset=""></span>
+            Download</button>
+        <button class="btn pill" id="pil1"><span><img id="footerbuttonIcon3" src="./img/fav-white.svg" alt=""
+                    srcset=""></span> Add to
+            Favourite</button>
+        <button class="btn pill" id="pil2"><span><img id="footerbuttonIcon4" src="./img/edit-white.svg" alt=""
+                    srcset=""></span> Edit</button>
+        <button class="btn pill" id="pil3"><span><img id="footerbuttonIcon5" src="./img/trash-white.svg" alt=""
+                    srcset=""></span>
+            Delete</button>
     </div>
     <!-- Footer button end here -->
+
 
 
 
@@ -268,7 +282,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 
 </body>
 
