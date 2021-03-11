@@ -284,16 +284,29 @@ body,
         flex-direction: row;
     }
 } */
-/* @media screen and (max-width: 450px) {
 
+
+@media screen and (max-width: 575px) {
     .footerbuttonlist {
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-} */
 
-.footerbuttonlist {
-    align-items: stretch;
+    .forcetorow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .SpecificAndDivid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
+
+
 
 #pil {
     border-radius: 16px;
