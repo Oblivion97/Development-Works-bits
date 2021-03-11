@@ -4,6 +4,16 @@ body,
 
 }
 
+#bellActive {
+    margin-left: -10px;
+    margin-right: 5px;
+    margin-top: 0px;
+    border-radius: 100%;
+    background: #D10D74;
+    width: 5px;
+    height: 5px;
+}
+
 
 .navbarTopLIne {
     width: 100%;
