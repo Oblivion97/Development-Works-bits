@@ -1,17 +1,18 @@
 body,
 * {
     font-family: "normal normal normal Helvetica Neue";
+    font-size: 18px;
 
 }
 
 #bellActive {
     margin-left: -10px;
-    margin-right: 5px;
+    margin-right: 20px;
     margin-top: 0px;
     border-radius: 100%;
     background: #D10D74;
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
 }
 
 
@@ -68,6 +69,7 @@ body,
 }
 
 .UploadText {
+    margin-right: 5%;
     border-bottom: 2px;
 }
 
@@ -83,8 +85,8 @@ body,
 #crownLogo {
     top: 44px;
     left: 982px;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-left: 5px;
@@ -95,8 +97,8 @@ body,
 #UserLogo {
     top: 44px;
     left: 982px;
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-left: 5px;
@@ -116,19 +118,19 @@ body,
 }
 
 .UserInfoParent {
-    width: 110px;
+    width: 200px;
 }
 
 .UserInfo {
     margin-bottom: 0px;
     margin-top: -3px;
     font-weight: bold;
-    font-size: smaller;
+    font-size: 18px;
     align-items: center;
 }
 
 .Usercredential {
-    font-size: small;
+    font-size: 18px;
 }
 
 .userIconNav {
@@ -137,7 +139,7 @@ body,
 }
 
 #wordart {
-    font: 20px/25px;
+    font-size: 25px;
     font-weight: bolder;
 
     letter-spacing: 0;
@@ -148,7 +150,7 @@ body,
 
 #Apdf {
     margin-bottom: 30px;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bold;
 
     letter-spacing: 0;
@@ -161,18 +163,23 @@ body,
 #pdf {
     height: 26px;
     opacity: 1;
-    font-size: 26px;
+    font-size: 25px;
 }
 
 #division,
 #pDT {
     color: #3db7e4;
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 0px;
     color: #3DB7E4;
     margin-bottom: 1.5%;
     opacity: 1;
+}
+
+#midContainer {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #timeDate {
@@ -200,8 +207,13 @@ body,
     border-radius: 5px;
 }
 
+#DivitionDrop {
+    margin-right: 2%;
+}
+
+
 #DescriptionInpField {
-    height: 40px;
+    min-width: 240px;
     overflow: hidden;
     border: 0px;
     background-color: #e9ecef;
@@ -222,6 +234,7 @@ body,
 }
 
 #Name {
+    min-width: 240px;
     border: 0;
     color: #4d4f53;
     background-color: #e9ecef;
@@ -260,6 +273,28 @@ body,
 
 }
 
+/* @media screen and (max-width: 450px) {
+
+    #pilback,
+    #pil,
+    #pil1,
+    #pil2,
+    #pil3 {
+        display: flex;
+        flex-direction: row;
+    }
+} */
+/* @media screen and (max-width: 450px) {
+
+    .footerbuttonlist {
+        flex-wrap: wrap;
+    }
+} */
+
+.footerbuttonlist {
+    align-items: stretch;
+}
+
 #pil {
     border-radius: 16px;
     color: white;
@@ -292,7 +327,7 @@ body,
 
 #norm {
     color: #A0A5AF;
-    font-size: 16px;
+    font-size: 18px;
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -315,7 +350,7 @@ body,
 
 #PubicLabel {
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 0px;
     color: #A0A5AF;
     opacity: 1;
@@ -323,7 +358,7 @@ body,
 
 #OnlyMeLabel {
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 0px;
     color: #A0A5AF;
     opacity: 1
@@ -331,7 +366,7 @@ body,
 
 #SpecificPerson {
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 0px;
     color: #A0A5AF;
     opacity: 1
@@ -347,7 +382,7 @@ body,
 
 #ddown2 {
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 0px;
     color: #A0A5AF;
     opacity: 1;
@@ -355,7 +390,7 @@ body,
 
 #menu2 {
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 0px;
     color: #A0A5AF;
     opacity: 1;
@@ -367,7 +402,7 @@ body,
 
 #menu3 {
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 0px;
     color: #A0A5AF;
     opacity: 1;
