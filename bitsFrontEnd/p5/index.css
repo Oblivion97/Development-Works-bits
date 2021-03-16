@@ -87,13 +87,13 @@ body,
 #crownLogo {
     top: 44px;
     left: 982px;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-left: 5px;
     margin-right: 5px;
-    margin-top: 12px;
+    margin-top: 15px;
 }
 
 #UserLogo {
