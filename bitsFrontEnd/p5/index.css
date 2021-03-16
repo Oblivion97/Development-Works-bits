@@ -6,14 +6,17 @@ body,
 }
 
 #bellActive {
-    margin-left: -10px;
-    margin-top: 0px;
+    margin-left: -15px;
+    margin-top: 10px;
     border-radius: 100%;
     background: #D10D74;
     width: 10px;
     height: 10px;
 }
 
+#bellLogo {
+    margin-top: 8px;
+}
 
 .navbarTopLIne {
     width: 100%;
@@ -90,14 +93,22 @@ body,
     opacity: 1;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 12px;
+}
+
+#UserLogo {
+    margin-bottom: 10px;
+    margin-top: 8px;
+    /* width: 50px;
+    height: 50px; */
 }
 
 #bellLogo,
 #UserLogo {
     top: 44px;
     left: 982px;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-left: 5px;
