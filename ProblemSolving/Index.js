@@ -23,19 +23,28 @@ for(var i = 0; i < list.length; i++) {
     var obj = list[i];
 
 
-    catchecker(ctg.name);
+    
     
     var ctg = {};
-    ctg.name = obj.category;
+    ctg.name = obj.category;//category name
     ctg.questions = [];
 
     var question = {};
     question.name = obj.question_name;
-    ctg.questions.push(question);
+    
+    var result = catchecker(ctg.name);
 
+    //ctg.questions.push(question);
 
-   console.log(ctg);
-   data.push(ctg);
+    if (result != undefined) {
+        data[result].questions.push(question);
+    }else{
+        ctg.questions.push(question);//question
+        data.push(ctg);
+    }
+console.log(data);
+   //console.log(ctg);
+   //data.push(ctg);
     //data.push({Category: ctg},{Question: qname});
 
 
@@ -43,10 +52,24 @@ for(var i = 0; i < list.length; i++) {
     //data.push({name:obj.category, category:obj.question_name});
     
 }
-console.log(data);
+//console.log(data);
 function catchecker(catcheck) {
+    var result = undefined;
+    // if (data == undefined) {
+    //     return 0;
+    // }
+    //console.log(data.length);
+    
     for (let j = 0; j < data.length; j++) {
-        catcheck
+        var obj = data[j];
+        //console.log(obj);
+            if (obj.name == catcheck) {
+                result = j;
+                break;
+        //     }else{
+        //         result = 0;
+        //         break
+         }
         
     }
     return result
