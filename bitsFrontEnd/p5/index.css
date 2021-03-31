@@ -5,28 +5,6 @@ body,
 
 }
 
-#bellActive {
-    margin-left: -15px;
-    margin-top: 10px;
-    border-radius: 100%;
-    background: #D10D74;
-    width: 10px;
-    height: 10px;
-}
-
-#bellLogo {
-    margin-top: 8px;
-}
-
-.navbarTopLIne {
-    width: 100%;
-    height: 13px;
-    background-color: #D10D74;
-}
-
-.topNavbar {
-    margin-bottom: 3%;
-}
 
 .imagediv {
     margin-top: 2%;
@@ -49,106 +27,6 @@ body,
     margin-top: 3%;
 }
 
-.bracLogo {
-    top: 26px;
-    left: 46px;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-}
-
-#UploadIcon {
-    top: 43px;
-    left: 659px;
-    width: 23px;
-    height: 14px;
-    color: #D10D74;
-    opacity: 1;
-}
-
-.UploadUnderline {
-    text-decoration-color: #D10D74;
-}
-
-.UploadText {
-    margin-right: 5%;
-    border-bottom: 2px;
-}
-
-.navMiddleIcon {
-    display: flex;
-    flex-direction: row;
-}
-
-.downarrow {
-    margin-left: 2%;
-}
-
-#crownLogo {
-    top: 44px;
-    left: 982px;
-    width: 35px;
-    height: 35px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 15px;
-}
-
-#UserLogo {
-    margin-bottom: 10px;
-    margin-top: 8px;
-    /* width: 50px;
-    height: 50px; */
-}
-
-#bellLogo,
-#UserLogo {
-    top: 44px;
-    left: 982px;
-    width: 50px;
-    height: 50px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.usrnotcrwn {
-    display: flex;
-    flex-direction: row;
-
-}
-
-.UserMedia {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-
-}
-
-.UserInfoParent {
-    width: 100%;
-}
-
-.UserInfo {
-    margin-bottom: 0px;
-    margin-top: -3px;
-    font-weight: bold;
-    font-size: 18px;
-    align-items: center;
-}
-
-.Usercredential {
-    font-size: 18px;
-    color: #A0A5AF;
-}
-
-.userIconNav {
-    height: 15px;
-    width: 15px;
-}
 
 #wordart {
     font-size: 25px;
@@ -435,10 +313,6 @@ body,
         flex-direction: column;
         justify-content: center;
     }
-}
-
-#NavbarParent {
-    padding-right: 10px;
 }
 
 
